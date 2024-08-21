@@ -1,0 +1,19 @@
+.partners-items{
+   margin: 7vw 5vw 5vw 5vw;
+    display:flex;
+    justify-content: space-between ;
+    list-style-type: none;
+}
+
+.first-li{
+    color: #056088;
+    font-size: 1.4vw;
+}
+.second-li,
+.third-li,
+.fourth-li,
+.fifth-li
+{
+    font-size: 1.4vw;
+    color:rgb(136, 136, 136);
+}

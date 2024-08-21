@@ -1,0 +1,157 @@
+.text-content{
+    color:black;
+    display: inline;
+    width: 23vw;   
+    height: 32vw;
+}
+
+.item-company img{
+    width: 20vw;
+}
+
+/* .images-storage {
+    position: relative; 
+    column-count: 2;
+    gap: 1vw;
+} */
+
+.circle {
+    color:#056088;
+    z-index: 2; 
+    background-color: rgb(255, 255, 255);
+    width: 15vw;
+    height: 15vw;
+    border-radius: 50%;
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+}
+
+.circle p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 1vw;
+}
+
+.circle{
+    display: inline-flex; 
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+}
+
+ .circle .image{
+    font-size: 10vw;
+    font-weight: bold;
+}
+
+.statistic{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    font-weight: bold;
+    color:#056088;
+}
+
+.item-company,
+.text-content{
+    padding-top: 10vw;
+    padding-left: 5vw; 
+    padding-right: 5vw; 
+}
+
+@media only screen and (max-width: 576px) {
+
+    .company-item{
+        display:inline;
+        /* display: flex; */
+        gap:5vw; 
+    }
+    .text-content  h1{
+        font-size:3vw;
+        color:#056088;
+        text-align: center;
+    }
+    .text-content p,
+    .statistic p{
+        font-size: 2vw;
+    }
+    .images-storage {
+        position: relative; 
+        column-count: 2;
+        gap: 1vw;
+        text-align: center;
+    }
+    .text-content{
+        color:black;
+        display: inline;
+        width: 23vw;   
+        height: 32vw;
+    }
+    
+    .item-company img{
+        width: 35vw;
+    }
+    .circle {
+        color:#056088;
+        z-index: 2; 
+        background-color: rgb(255, 255, 255);
+        width: 25vw;
+        height: 25vw;
+        border-radius: 50%;
+        position: absolute; 
+        top: 50%; 
+        left: 50%; 
+        transform: translate(-50%, -50%); 
+    }
+    .circle p{
+        font-size: 2vw;
+    } 
+    .text, .statistic{
+    padding-left: 5vw; 
+    padding-right: 5vw; 
+}
+
+}
+
+
+@media only screen and (min-width: 1200px) {
+    .company-item{
+        display:flex;
+        gap:5vw; 
+    }
+    .text  h1{
+        font-size: 1.4vw;
+        color:#056088;
+    }
+    .text-content  p,
+    .statistic p{
+        font-size: 1.1vw;
+    }
+    .images-storage {
+        position: relative; 
+        column-count: 2;
+        gap: 1vw;
+    }
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 577px) {
+    .company-item{
+        display:flex;
+        gap:5vw; 
+    }
+    .text-content  h1{
+        font-size: 1.4vw;
+        color:#056088;
+    }
+    .text-content p,
+    .statistic p{
+        font-size: 1.5vw;
+    }
+    .images-storage {
+        position: relative; 
+        column-count: 2;
+        gap: 1vw;
+    }
+}

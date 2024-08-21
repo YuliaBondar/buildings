@@ -1,0 +1,65 @@
+.client-item{
+    margin-top: 7vw;
+    margin-bottom: 2vw;
+}
+.client_item_item {
+    display: flex; 
+     margin-left: 5vw;
+    /*margin-right: 5vw; */
+}
+
+.clients_say {
+    background-color: white;
+    width: 15vw;
+    height: 15vw;
+    align-items: center;
+    padding: 1vw;
+    text-align: start;
+    z-index: 2; 
+    position: relative;
+    font-size: 1vw;
+}
+
+.picture {
+    margin: 0;
+    position: relative;
+    height: 20vw;
+    width: 80vw;
+    background: url('./photo/secondbackground.png');
+    background-size:cover;
+    background-repeat: no-repeat;
+    z-index: 2;
+    /* margin-left: 5vw; */
+    margin-right: 5vw;
+}
+
+.otzyv {
+    background: linear-gradient(#023957, #056088);
+    color: white;
+    width: 21vw;
+    height: 12vw;
+    display: flex;
+    align-items: flex-start;
+    margin-left: 55vw;
+    margin-top: 10vw;
+    font-size: 1vw;
+    position: relative; 
+}
+
+.text_item {
+    padding: 2vw;
+}
+
+.client_image {
+    width: 5vw;
+    height: 5vw;
+    background: url('./photo/Client.png');
+    background-size: cover; 
+    background-position: center; 
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    transform: translate(-40%, -50%); 
+}

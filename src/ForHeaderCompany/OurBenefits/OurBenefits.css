@@ -1,0 +1,169 @@
+.our-services-component {
+    display: inline;
+    align-items: center;
+    text-align: center;
+    position: relative; /* или absolute/fixed в зависимости от вашей структуры */
+    z-index: 3; /* Установите высокое значение z-index */
+}
+
+.some-text-about-services{
+    padding-bottom  : 1vw;
+    padding-top: 1vw;
+}
+.build-work.first {
+    position: relative;
+    background: url('./photo/build1.png');
+    background-size: cover; 
+    background-position: center; 
+
+}
+.build-work.second {
+    position: relative;
+    background: url('./photo/build2.png');
+    background-size: cover; 
+    background-position: center; 
+}
+.build-work.third {
+    position: relative;
+    background: url('./photo/build3.png');
+    background-size: cover; 
+    background-position: center; 
+}
+
+.build-work.first::before,
+.build-work.second::before,
+.build-work.third::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(5, 96, 136, 0.8), rgba(2, 57, 87, 0.8)); /* Градиентное затемнение */
+    z-index: 1;
+  
+}
+
+ .text-benefits, 
+ .content-items .img{
+    position: relative;
+    z-index: 2;
+    color: rgb(255, 255, 255); /* Цвет текста белый для контраста с затемненным фоном */
+    
+}
+
+.build-work {
+    display: flex;
+    justify-content: center; /* Центрируем содержимое по горизонтали */
+    align-items: center; /* Центрируем содержимое по вертикали */
+}
+
+.content-items{
+    text-align: center;
+}
+.our-build{
+    padding-left: 5vw; 
+    padding-right: 5vw; 
+}
+
+
+@media only screen and (max-width: 700px) {
+    .some-text-about-services h3{
+       padding-top: 5vw;
+    }
+    .our-build{
+        display:flex;
+        justify-content: space-between;
+        gap:1vw;
+    }
+    .img {
+        width: 4vw;
+        height: 4vw;
+    }
+    .build-work{
+        width: 30vw;
+        height: 30vw;
+    }
+    .text-benefits  h3{
+        font-size:1.9vw;
+       
+    }
+    .text-benefits p
+    {
+        font-size: 1.9vw;
+    }
+    .some-text-about-services h3{
+        color:#056088;
+        font-size: 2.3vw;
+    }
+    .some-text-about-services p{
+        font-size: 2.1vw;
+    }
+    .content-items{
+        padding: 2vw;
+    }
+}
+
+
+@media only screen and (min-width: 1200px) {
+   
+    .our-build{
+        display:flex;
+        gap:1vw;
+        justify-content: space-between;
+    }
+    .img {
+        width: 3vw;
+        height: 3vw;
+    }
+    .build-work{
+        width: 25vw;
+        height: 17vw;
+    }
+    .text-benefits  h1{
+        font-size: 1.4vw;
+        
+    }
+    .text-benefits  p{
+        font-size: 1.1vw;
+    }
+    .some-text-about-services h3{
+        color:#056088;
+        font-size: 1.6vw;
+        padding-top: 1vw;
+    }
+    .some-text-about-services p{
+        font-size: 1.2vw;
+    }
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 700px) {
+   
+    .our-build{
+        display:flex;
+        justify-content: space-between;
+        gap:1vw;
+    }
+    .img {
+        width: 3vw;
+        height: 3vw;
+    }
+    .build-work{
+        width: 25vw;
+        height: 25vw;
+    }
+    .text-benefits  h1{
+        font-size: 1.6vw;
+        
+    }
+    .text-benefits p{
+        font-size: 1.4vw;
+    }
+    .some-text-about-services h3{
+        color:#056088;
+        font-size: 1.9vw;
+    }
+    .some-text-about-services p{
+        font-size: 1.5vw;
+    }
+}

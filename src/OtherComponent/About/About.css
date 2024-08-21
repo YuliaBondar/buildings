@@ -1,0 +1,78 @@
+.about-content {
+    display: flex;
+    justify-content: start;
+    gap:15vw;
+    align-items: center;
+    margin: 0 5vw 5vw 5vw;
+  }
+  
+  .photos {
+    position: relative;
+  }
+  
+  .photos-1,
+  .photos-2 {
+    
+    background-size: cover;
+    position: absolute;
+  }
+  
+  .photos-1 {
+    width: 30vw; /* Установите нужную ширину */
+    height: 30vw; /* Установите нужную высоту */
+    background: url('./photo/ofice.png') no-repeat center center;
+    background-size: contain;
+    position: relative;
+    z-index: 1; /* Устанавливает порядок наложения */
+  }
+  
+  .photos-2 {
+    width: 20vw;
+    height: 10vw;
+    background: url('./photo/arms.png') no-repeat center center;
+    background-size: cover; /* Изменено на cover для растягивания фото */
+    z-index: 2; /* Устанавливает порядок наложения выше, чем у первого фото */
+    position: absolute; /* Абсолютное позиционирование */
+    left: 15vw; /* Смещение по горизонтали */
+    top: 18vw; /* Смещение по вертикали */
+    box-sizing: border-box; /* Включает padding в общие размеры элемента */
+    border: 1vw solid white; /* Граница */
+}
+
+.home {
+    position: relative;
+    background: url('./photo/building.png');
+    height: 24vw;
+    background-size: cover; 
+    background-position: center; 
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.home::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(5, 96, 136, 0.8), rgba(2, 57, 87, 0.8)); /* Градиентное затемнение */
+    z-index: 1;
+  
+}
+.home .text-items{
+    z-index: 2;
+    position: relative;
+    color:white;
+    margin-left: 5vw;
+}
+.photos-3{
+    background: url('./photo/works.png');
+    background-size: cover;
+    width: 35vw;
+    height: 20vw;
+    z-index: 2;
+    position: relative;
+    margin-right: 5vw;
+}

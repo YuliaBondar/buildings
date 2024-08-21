@@ -1,0 +1,91 @@
+
+.navigation-item{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 5vw 3vw 5vw; 
+    align-items: center;
+    color:white;
+    position: relative;
+    z-index: 1;
+
+}
+
+.navigation-component nav li{
+    display: inline-flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-size: 1.3vw;
+    cursor:pointer;
+}
+
+.navigation-component nav li{
+    margin-right: 2vw;
+}
+.nav-list li a {
+    color: white;
+    text-decoration: none; 
+  }
+  
+  .nav-list li a:active,
+  .nav-list li a:focus,
+  .nav-list li a:hover {
+    color: white; 
+    background: none; 
+    outline: none;
+  }
+
+@media only screen and (max-width: 600px) {
+    .emblem {
+        font-size: 1.7vw; 
+    }
+    .navigation-component nav li{
+        font-size: 2.2vw; 
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+
+    .emblem {
+        font-size: 1.5vw; 
+    }
+    .navigation-component nav li{
+        font-size: 1vw; 
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .nav-list {
+        display: none; /* Скрываем список по умолчанию */
+        flex-direction: column; /* Вертикальное расположение элементов */
+        position: absolute; /* Позиционирование списка */
+        background-color: inherit; /* Цвет фона для списка */
+        top: 40px; /* Расположение под меню */
+        left: 0;
+        width: 100%; /* Ширина на весь экран */
+        z-index: 1; /* Чтобы список был поверх других элементов */
+        gap:5px;
+    }
+
+    .nav-list.visible {
+        display: flex; /* Показываем список при открытии */
+    }
+
+    .menu-icon {
+        cursor: pointer; /* Указатель на иконке */
+        display: block; /* Отображаем иконку */
+    }
+}
+
+@media only screen and (min-width: 601px) {
+    .nav-list {
+
+        display: flex; /* Показываем список навигации */
+    }
+    .menu-icon {
+        display: none; /* Скрываем иконку меню на больших экранах */
+    }
+}
+
+.navigation-component {
+    position: relative; /* Для позиционирования иконки */
+}

@@ -1,0 +1,158 @@
+.item-elements{
+    margin: 5vw 0 5vw 0;
+}
+
+.design-building {
+    margin: 5vw;
+    display: flex;
+    align-items: center;
+  }
+  
+  .photo-element {
+    background: url('./photo/work.png');
+    width: 40%; 
+    height: 20vw; 
+    background-size: cover;
+    background-position: center;
+    clip-path: polygon(0 0, 100% 0, 75% 100%, 0 100%);
+  }
+  
+  .texts-items {
+    position: relative;
+    background: url('./photo/night.png');
+    background-size: cover;
+    background-position: center;
+    width: 60%; 
+    height: 20vw; 
+    clip-path: polygon(15% 0, 100% 0, 100% 100%, 0 100%);
+  }
+  
+  .texts-items::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(5, 96, 136, 0.8), rgba(2, 57, 87, 0.8)); /* Gradient overlay */
+    z-index: 1;
+  }
+  .texts-items{
+    position: relative;
+    z-index: 2;
+    color:white;
+    text-align: center;
+    
+  }
+
+  .texts-items-second {
+    position: relative;
+    background: url('./photo/night.png');
+    background-size: cover;
+    background-position: center;
+    width: 60%; 
+    height: 15vw; 
+    clip-path: polygon(0 0, 85% 0, 100% 100%, 0 100%);
+}
+
+  
+  .texts-items-second::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(5, 96, 136, 0.8), rgba(2, 57, 87, 0.8)); /* Gradient overlay */
+    z-index: 1;
+  }
+  .texts-items-second{
+    position: relative;
+    z-index: 2;
+    color:white;
+    text-align: center;
+    
+  }
+  .photo-works{
+    background: url('./photo/works.png');
+  }
+  .photo-works{
+    background: url('./photo/works.png');
+    width: 40%; 
+    height: 20vw; 
+    background-size: cover;
+    background-position: center;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 30% 100%);
+  }
+
+  @media only screen and (max-width: 700px) {
+    .texts-items h3,
+    .texts-items span {
+        z-index: 2;
+        position: relative;
+        margin-bottom: 0.1vw;
+        margin-top: 2vw;
+        line-height: 0.1; 
+        
+    }
+    .texts-items-second h3,
+    .texts-items-second span {
+        z-index: 2;
+        position: relative;
+        margin-bottom: 0vw;
+        line-height: 0.2; 
+    }
+    .design-building h3 {
+        font-size: 1.5vw;
+        
+    }
+     .design-building span {
+        font-size: 1vw;
+        line-height: 1.1; 
+    }
+}
+
+
+  @media only screen and (min-width: 1200px){
+    .texts-items h3,
+    .texts-items span{
+      z-index: 2;
+      position: relative;
+      margin-bottom: 1vw;
+      margin-top: 5vw;
+      
+    }
+    .texts-items-second h3,
+    .texts-items-second span{
+      z-index: 2;
+      position: relative;
+      margin-bottom: 2vw;
+    }
+  }
+
+  @media only screen and (max-width: 1200px) and (min-width: 700px) {
+    .texts-items h3,
+    .texts-items span{
+      z-index: 2;
+      position: relative;
+      margin-bottom: 1vw;
+      margin-top: 3vw;
+      line-height: 1.1;
+          
+    }
+    .texts-items-second h3,
+    .texts-items-second span{
+      z-index: 2;
+      position: relative;
+      margin-bottom: 1vw;
+      line-height: 1.1;
+    }
+    h3{
+      font-size: 1.3vw;
+      line-height: 1.1;
+    }
+    span{
+      font-size: 1vw;
+       line-height: 1.1;
+    }
+  }
