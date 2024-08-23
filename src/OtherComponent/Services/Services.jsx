@@ -16,9 +16,7 @@ const Services = () => {
                     is simply dummy text of the printing and typesetting industry.<br/>
                     Lorem Ipsum has been the industry's standard dummy text ever<br/>
                     since the 1500s, when an unknown printer took a galley of type<br/>
-                    and scrambled it to make a type specimen book. It has survived<br/>
-                    not only five centuries, but also the leap into electronic<br/>
-                    typesetting, remaining essentially unchanged.
+                    and scrambled it to make a type specimen book. 
                     </span>
                 </div>
               </div>
@@ -29,9 +27,7 @@ const Services = () => {
                       is simply dummy text of the printing and typesetting industry.<br/>
                       Lorem Ipsum has been the industry's standard dummy text ever<br/>
                       since the 1500s, when an unknown printer took a galley of type<br/>
-                      and scrambled it to make a type specimen book. It has survived<br/>
-                      not only five centuries, but also the leap into electronic<br/>
-                      typesetting, remaining essentially unchanged.
+                      and scrambled it to make a type specimen book. 
                       </span>
                   </div>
                   <div className="photo-works"></div>

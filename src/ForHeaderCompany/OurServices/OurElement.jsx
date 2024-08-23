@@ -6,12 +6,12 @@ import { BiSolidBuildingHouse } from "react-icons/bi";
 import { VscTools } from "react-icons/vsc";
 
 const OurElement = () => {
-  return (
+return (
     <div className="our-works">
 
                 <div className='skill-work first'>
                     <div className="content">
-                        <div ><FaPencilRuler className='img'/></div>
+                        <div><FaPencilRuler className='img'/></div>
                         <div className="text-works">
                             <h3>Design building/house</h3>
                             <p>We have an architect for<br/> design new buildings</p>

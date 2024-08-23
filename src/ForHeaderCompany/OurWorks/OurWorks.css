@@ -50,11 +50,11 @@
     gap:1vw;
 } 
 .firsts {
-    width: 10vw;
+    width: 12vw;
     height: 8vw;
 }
 .seconds {
-    width: 10vw;
+    width: 12vw;
     height: 16.2vw;
 }
 .fourth {
@@ -92,50 +92,6 @@
     height:25vw;
     object-fit: cover;
 }
-/* .firsts{
-    width: 220px;
-    height: 180px;
-}
-.seconds{
-    width: 220px;
-    height: 262px;
-}
-
-.fourth{
-    width: 470px;
-    height: 277px;
-}
-.fifth{
-    width: 470px;
-    height: 163px;
-}
-.sixth{
-    width: 200px;
-    height: 256px;
-}
-.seventh,
-.eighth{
-    width:196px ;
-    height:123px ;
-}
-
-.ninth{
-    width:412px ;
-    height:184px ;
-}
-.horizontal-group_one {
-    display: flex; 
-    justify-content: center; 
-    align-items: center; 
-    gap:10px;
-}
-
-
-.separate {
-    width: 216px; 
-    height: 457px; 
-    object-fit: cover; 
-} */
 
 .vertical-group_two{
     display: flex;

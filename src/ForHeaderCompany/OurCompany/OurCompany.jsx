@@ -37,8 +37,6 @@ const OurCompany = () => {
               
         </div>
         <button className='contact-button'>See more</button>
-        
-
       </div>
      
     </div>

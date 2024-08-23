@@ -17,3 +17,17 @@
     font-size: 1.4vw;
     color:rgb(136, 136, 136);
 }
+@media only screen and (max-width: 578px) {
+    .first-li{
+        color: #056088;
+        font-size: 1.9vw;
+    }
+    .second-li,
+    .third-li,
+    .fourth-li,
+    .fifth-li
+    {
+        font-size: 1.8vw;
+        color:rgb(136, 136, 136);
+    }
+}

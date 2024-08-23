@@ -34,8 +34,8 @@
 .skill-work {
     width: 350px;
     display: flex;
-    justify-content: center; /* Центрируем содержимое по горизонтали */
-    align-items: center; /* Центрируем содержимое по вертикали */
+    justify-content: center; 
+    align-items: center; 
 }
 
 .content{
@@ -46,41 +46,53 @@
     padding-right: 5vw; 
 }
 
-@media only screen and (max-width: 700px) {
-    .some-text-about-services h3{
-        padding-top: 5vw;
+@media only screen and (max-width: 578px) {
+
+    .our-works {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center; 
+        align-items: center; 
+        gap:10vw;
+        padding-left: 5vw;
+        padding-right: 5vw; 
     }
-    .our-works{
-        display:flex;
-        gap:3vw;
-    }
+
     .img {
         width: 4vw;
         height: 4vw;
     }
-    .skill-work{
+
+    .skill-work {
         width: 35vw;
-        height: 35vw;
+        height: auto; 
+        display: flex; 
+        flex-direction: column; 
+        align-items: center; 
     }
-    .text-works  h3{
-        font-size:1.9vw;
-       
-    }
-    .text-works p
-    {
+
+    .text-works h3 {
         font-size: 1.9vw;
     }
-    .some-text-about-services h3{
-        color:#056088;
+
+    .text-works p {
+        font-size: 2vw;
+    }
+
+    .some-text-about-services h3 {
+        color: #056088;
         font-size: 2.3vw;
     }
-    .some-text-about-services p{
-        font-size: 2.1vw;
+
+    .some-text-about-services p {
+        font-size: 2.3vw;
     }
-    .content{
+
+    .content {
         padding: 2vw;
     }
 }
+
 
 
 @media only screen and (min-width: 1200px) {
@@ -113,7 +125,7 @@
     }
 }
 
-@media only screen and (max-width: 1200px) and (min-width: 700px) {
+@media only screen and (max-width: 1200px) and (min-width: 579px) {
    
     .our-works{
         padding-top: 1vw;
