@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-d
 import ComponentHeader from './ForHeaderCompany/ComponentHeader/ComponentHeader.jsx'
 import About from './OtherComponent/About/About.jsx'
 import Services from './OtherComponent/Services/Services.jsx';
+import Gallery from './OtherComponent/Gallery/Gallery.jsx';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="/home" element={<ComponentHeader/>} />
           <Route path="/about" element={<About />} />
           <Route path="/services" element={<Services />} />
+          <Route path="/gallery" element={<Gallery />} />
         </Routes>
       <Footer/>
       
