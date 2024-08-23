@@ -22,7 +22,7 @@ const HeaderNavigation = ({ SetType }) => {
             <li onClick={() => SetType('We build your dream house\nwell and professionally')}><Link to='/home'>Home</Link></li>
             <li onClick={() => SetType('About our story - We are the best team')}><Link to='/about'>About</Link></li>
             <li onClick={() => SetType('Our team services')}><Link to='/services'>Services</Link></li>
-            <li onClick={() => SetType('Here some our best works')}>Gallery</li>
+            <li onClick={() => SetType('Here some our best works')}><Link to='/gallery'>Gallery</Link></li>
             <li onClick={() => SetType('Need some consultation or want to collaborarion with us? Let’s connect!')}>Contact</li>
             <li onClick={() => SetType('Read some story from clients!')}>Story</li>
             <li onClick={() => SetType('Have a briliant idea? Join with us. We have an oppurtunity for you')}>Careers</li>
