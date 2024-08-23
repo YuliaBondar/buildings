@@ -1,0 +1,53 @@
+.elements-gallery{
+    margin: 5vw;
+}
+
+@media only screen and (max-width:700px){
+   
+}
+
+@media only screen and (min-width: 1200px) {
+    .gallery-element{
+        width: 15vw;
+        height: 25vw;
+    }
+    img{
+        width: 15vw;
+        height: 10vw;
+    }
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 600px) {
+   
+    .elements-gallery{
+        display: flex;
+        justify-content:space-between;
+        flex-wrap: wrap;
+   }
+
+    .gallery-element{
+        width: 27vw;
+        height: 30vw;
+        margin-bottom: 3vw;
+        box-shadow: 0 4px 10px rgba(128, 128, 128, 0.5);
+    }
+
+    img{
+        width: 27vw;
+        height: 15vw;
+    }
+
+    .items-about-building{
+        padding: 1.5vw;
+    }
+
+    .item-name{
+        color: #056088;
+        font-size: 1.5vw;
+        font-family: 'poppins';
+    }
+
+    .item-timing{
+        font-size: 1.3vw;
+    }
+}
