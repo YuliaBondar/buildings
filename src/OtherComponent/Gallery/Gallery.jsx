@@ -19,7 +19,9 @@ const Gallery = () => {
               </div>
         ))}
     </div>
-    <button>See more</button>
+    <div  className='button-see'>
+  <button className='button-see-more'><b>See more</b></button>
+</div>
 </div>
   )
 }
