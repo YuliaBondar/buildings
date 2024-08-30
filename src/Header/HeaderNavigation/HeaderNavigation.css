@@ -17,22 +17,20 @@
     font-size: 1.3vw;
     cursor:pointer;
 }
+  
+  .nav-list li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255); 
+  }
+  
+  .nav-list li a.active {
+    color: #023957;
+  }
 
 .navigation-component nav li{
     margin-right: 2vw;
 }
-.nav-list li a {
-    color: white;
-    text-decoration: none; 
-  }
-  
-  .nav-list li a:active,
-  .nav-list li a:focus,
-  .nav-list li a:hover {
-    color: white; 
-    background: none; 
-    outline: none;
-  }
+
 
 @media only screen and (max-width: 600px) {
     .emblem {

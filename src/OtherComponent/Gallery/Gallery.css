@@ -2,22 +2,104 @@
     margin: 5vw;
 }
 
-@media only screen and (max-width:700px){
-   
+@media only screen and (max-width:576px){
+    .elements-gallery {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 5vw;
+        place-items: center;
+    }
+    
+    .gallery-element {
+       
+        width: 35vw;
+        height: 40vw;
+        box-shadow: 0 4px 10px rgba(128, 128, 128, 0.5);
+    }
+    
+    img {
+        width: 100%;
+        height: 18vw;
+    }
+    
+    .items-about-building {
+        padding: 1.5vw;
+    }
+    
+    .item-name {
+        color: #056088;
+        font-size: 1.8vw;
+        font-family: 'poppins';
+    }
+    
+    .item-timing {
+        font-size: 1.7vw;
+    }
+    
+    .button-see-more {
+        color: #056088;
+        border: none;
+        background-color: inherit;
+        font-size: 3vw;
+    }
+    
+    .button-see {
+        display: grid;
+        place-items: center;
+        margin-bottom: 5vw;
+    }
 }
 
 @media only screen and (min-width: 1200px) {
-    .gallery-element{
-        width: 15vw;
-        height: 25vw;
+    .elements-gallery {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 3vw;
+        place-items: center;
     }
-    img{
-        width: 15vw;
-        height: 10vw;
+    
+    .gallery-element {
+       
+        width: 20vw;
+        height: 27vw;
+        box-shadow: 0 4px 10px rgba(128, 128, 128, 0.5);
     }
+    
+    img {
+        width: 100%;
+        height: 15vw;
+    }
+    
+    .items-about-building {
+        padding: 1.5vw;
+    }
+    
+    .item-name {
+        color: #056088;
+        font-size: 1.2vw;
+        font-family: 'poppins';
+    }
+    
+    .item-timing {
+        font-size: 1vw;
+    }
+    
+    .button-see-more {
+        color: #056088;
+        border: none;
+        background-color: inherit;
+        font-size: 1.2vw;
+    }
+    
+    .button-see {
+        display: grid;
+        place-items: center;
+        margin-bottom: 5vw;
+    }
+    
 }
 
-@media only screen and (max-width: 1200px) and (min-width: 600px) {
+@media only screen and (max-width: 1200px) and (min-width: 577px) {
    
     .elements-gallery{
         display: flex;
@@ -49,5 +131,17 @@
 
     .item-timing{
         font-size: 1.3vw;
+    }
+    .button-see-more{
+        color: #056088;
+        border:none;
+        background-color: inherit;
+        font-size: 1.5vw;
+    
+    }
+    .button-see{
+        display: grid;
+        place-items: center;
+        margin-bottom: 5vw;
     }
 }

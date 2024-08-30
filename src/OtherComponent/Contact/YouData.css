@@ -1,7 +1,112 @@
 .contact-item{
     display:flex;
+    justify-content: space-between;
+}
+.photo-content {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
 }
 
 .form-row{
     display: flex;
+    gap:2vw;
+}
+.contact-item{
+    margin:5vw;
+    background-color: #F5F5F5;
+}
+.form-for-people{
+    padding: 2vw;
+}
+.form-column input{
+    width: 20vw;
+    border:none;
+    
+}
+.form-for-people h3{
+    font-size: 1.5vw;
+    color:#056088;
+    text-wrap: nowrap;
+}
+.form-message textarea{
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    width: 42vw;
+    border:none;
+}
+
+/* youData.css */
+.text-source h3{
+    font-size: 1.5vw;
+    color:#056088;
+    text-wrap: nowrap;
+    text-align: center;
+}
+
+.contact-element{
+    display: flex;
+    justify-content:center;
+    gap:3vw;
+    margin-bottom: 5vw;
+
+}
+
+
+
+@media only screen and (max-width:576px){
+    .photo-content img{
+        width: 40vw;
+        height: 45vw;
+    }
+    .form-message textarea{
+        margin-top: 2vw;
+        margin-bottom: 2vw;
+        border:none;
+        height: 5vw;
+    }
+    .form-column input{
+        width: 20vw;
+        height: 5vw;
+        font-size: 2.4vw;
+        border:none;}
+
+     .form-message textarea{
+        margin-top: 2vw;
+        margin-bottom: 2vw;
+        width: 42vw;
+        font-size: 2мц;
+        border:none;}
+    
+    .form-for-people h3{
+        font-size: 2.5vw;
+        color:#056088;
+        text-wrap: nowrap;
+    }
+    .text-source h3
+    {
+        font-size: 2.5vw;
+        color:#056088;
+        text-wrap: nowrap;
+        text-align: center;
+    }
+   
+}
+
+@media only screen and (min-width: 1200px) {
+    .photo-content img{
+        width: 25vw;
+        height: 25vw;
+        
+    }
+    
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 577px) {
+    .photo-content img{
+        width: 30vw;
+        height: 30vw;
+
+    }
+   
 }
