@@ -6,6 +6,7 @@ import ComponentHeader from './ForHeaderCompany/ComponentHeader/ComponentHeader.
 import About from './OtherComponent/About/About.jsx'
 import Services from './OtherComponent/Services/Services.jsx';
 import Gallery from './OtherComponent/Gallery/Gallery.jsx';
+import Contact from './OtherComponent/Contact/YouData.jsx'
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/services" element={<Services />} />
           <Route path="/gallery" element={<Gallery />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
       <Footer/>
       
