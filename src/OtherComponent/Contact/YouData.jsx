@@ -1,6 +1,7 @@
 import React from 'react'
 import './YouData.css'
 import Work from './photo/work.png'
+import OurSource from './OurSource'
 
 const YouData = () => {
   return (
@@ -10,26 +11,29 @@ const YouData = () => {
                 <img src={Work} alt='Work-image'/>
             </div>
             <div className="form-for-people">
-            <h3>Let’s talk about anything you need</h3>
-            <form>
-                <div className="form-row">
-                    <div className="form-column">
-                       
-                        <input type="text" id="name" name="name" required placeholder='Your name/company name' />
+                <h3>Let’s talk about anything you need</h3>
+                <form>
+                    <div className="form-row">
+                        <div className="form-column">
+                        
+                            <input type="text" id="name" name="name" required placeholder='Your name/company name' />
+                        </div>
+                        <div className="form-column">
+                        
+                            <input type="text" id="contact" name="contact" required placeholder='Phone/E-mail' />
+                        </div>
                     </div>
-                    <div className="form-column">
-                       
-                        <input type="text" id="contact" name="contact" required placeholder='Phone/E-mail' />
+                    <div className="form-message">
+                    
+                        <textarea id="message" name="message" rows="4" required placeholder='Message'></textarea>
                     </div>
+                    <div className="contact-butt">
+                    <button className="contact-button" type='submit'>Submit</button>
                 </div>
-                <div className="form-message">
-                  
-                    <textarea id="message" name="message" rows="4" required placeholder='Message'></textarea>
-                </div>
-                <button type="submit">Submit</button>
-            </form>
+                </form>
+            </div>
         </div>
-        </div>
+        <OurSource/>
     </div>
   )
 }
