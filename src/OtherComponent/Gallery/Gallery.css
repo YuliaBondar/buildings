@@ -1,7 +1,10 @@
 .elements-gallery{
     margin: 5vw;
 }
-
+.button-see-more:hover{
+    background-color: rgb(203, 204, 204);
+    border-radius: 20%;
+}
 @media only screen and (max-width:576px){
     .elements-gallery {
         display: grid;
