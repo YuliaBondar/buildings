@@ -6,20 +6,29 @@ import ComponentHeader from './ForHeaderCompany/ComponentHeader/ComponentHeader.
 import About from './OtherComponent/About/About.jsx'
 import Services from './OtherComponent/Services/Services.jsx';
 import Gallery from './OtherComponent/Gallery/Gallery.jsx';
-import Contact from './OtherComponent/Contact/YouData.jsx'
+import Contact from './OtherComponent/Contact/YouData.jsx';
+import { useState, useEffect } from 'react';
 
 function App() {
+  const [text, setText] = useState('');
+
+  useEffect(() => {
+    const savedText = localStorage.getItem('savedText');
+    if (savedText) {
+      setText(savedText);
+    }
+  }, []);
   return (
     
       <Router>
       <Header/>
         <Routes>
-          <Route path="/" element={<Navigate to="/home" replace />} />
-          <Route path="/home" element={<ComponentHeader/>} />
-          <Route path="/about" element={<About />} />
-          <Route path="/services" element={<Services />} />
-          <Route path="/gallery" element={<Gallery />} />
-          <Route path="/contact" element={<Contact />} />
+        <Route path="/" element={<Navigate to="/home" replace />} />
+        <Route path="/home" element={<ComponentHeader text={text} />} />
+        <Route path="/about" element={<About text={text} />} />
+        <Route path="/services" element={<Services text={text} />} />
+        <Route path="/gallery" element={<Gallery text={text} />} />
+        <Route path="/contact" element={<Contact text={text} />} />
         </Routes>
       <Footer/>
       
