@@ -1,0 +1,15 @@
+.item{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item-1{
+    background-color: gray;
+}
+.item-2{
+    background-color: rgb(211, 18, 18);
+}
+.item-3{
+    background-color: rgb(90, 228, 10);
+}
