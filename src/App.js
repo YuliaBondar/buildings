@@ -13,8 +13,10 @@ function App() {
   const [text, setText] = useState('');
 
   useEffect(() => {
+    //Извлекается значение savedText из localStorage с помощью localStorage.getItem('savedText').
     const savedText = localStorage.getItem('savedText');
     if (savedText) {
+      //Если savedText существует (не равно null), вызывается функция setText(savedText), чтобы установить состояние text на это значение
       setText(savedText);
     }
   }, []);

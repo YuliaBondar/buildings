@@ -20,8 +20,8 @@ const Gallery = () => {
         ))}
     </div>
     <div  className='button-see'>
-  <button className='button-see-more'><b>See more</b></button>
-</div>
+      <button className='button-see-more'><b>See more</b></button>
+    </div>
 </div>
   )
 }

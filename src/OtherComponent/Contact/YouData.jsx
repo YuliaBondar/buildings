@@ -19,7 +19,6 @@ const YouData = () => {
                             <input type="text" id="name" name="name" required placeholder='Your name/company name' />
                         </div>
                         <div className="form-column">
-                        
                             <input type="text" id="contact" name="contact" required placeholder='Phone/E-mail' />
                         </div>
                     </div>
