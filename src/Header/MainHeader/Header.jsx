@@ -5,10 +5,22 @@ import HeaderContent from '../HeaderContent/HeaderContent.jsx'
 
 const Header = () => {
   const [type, setType] = useState('We build your dream house well and professionally');
+ 
+  const handleNavClick = (text, path) => {
+   
+    localStorage.setItem('savedText', text);
+    localStorage.setItem('savedPath', path);
+  };
+
   return (
     <div className='header'>
-         <HeaderNavigation SetType={setType} />
-         <HeaderContent type={type} />
+         <HeaderNavigation 
+            SetType={setType} 
+          
+          />
+         <HeaderContent 
+          handleNavClick={handleNavClick} 
+          type={type}/>
     </div>
   )
 }

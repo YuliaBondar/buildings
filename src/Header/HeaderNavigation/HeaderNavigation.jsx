@@ -43,28 +43,28 @@ const HeaderNavigation = ({ SetType }) => {
         <div className="navigation-component">
         <nav className={`nav-list ${isMenuVisible ? 'visible' : ''}`}>
             <li onClick={() => handleNavClick('We build your dream house\nwell and professionally', '/home')}>
-              <NavLink activeClassName="active" to='/home'>Home</NavLink>
+              <NavLink classNameActive="active" to='/home'>Home</NavLink>
             </li>
             <li onClick={() => handleNavClick('About our story - We are the best team', '/about')}>
-              <NavLink activeClassName="active" to='/about'>About</NavLink>
+              <NavLink classNameActive="active" to='/about'>About</NavLink>
             </li>
             <li onClick={() => handleNavClick('Our team services', '/services')}>
-              <NavLink activeClassName="active" to='/services'>Services</NavLink>
+              <NavLink classNameActive="active" to='/services'>Services</NavLink>
             </li>
             <li onClick={() => handleNavClick('Here some our best works', '/gallery')}>
-              <NavLink activeClassName="active" to='/gallery'>Gallery</NavLink>
+              <NavLink classNameActive="active" to='/gallery'>Gallery</NavLink>
             </li>
             <li onClick={() => handleNavClick('Need some consultation or want to collaboration with us? Let’s connect!', '/contact')}>
-              <NavLink activeClassName="active" to='/contact'>Contact</NavLink>
+              <NavLink classNameActive="active" to='/contact'>Contact</NavLink>
             </li>
             <li onClick={() => handleNavClick('Read some story from clients!', '/story')}>
-              <NavLink activeClassName="active" to='/story'>Story</NavLink>
+              <NavLink classNameActive="active" to='/story'>Story</NavLink>
             </li>
             <li onClick={() => handleNavClick('Have a brilliant idea? Join with us. We have an opportunity for you', '/careers')}>
-              <NavLink activeClassName="active" to='/careers'>Careers</NavLink>
+              <NavLink classNameActive="active" to='/careers'>Careers</NavLink>
             </li>
             <li onClick={() => handleNavClick('Article and news about property and constructions', '/news')}>
-              <NavLink activeClassName="active" to='/news'>News</NavLink>
+              <NavLink classNameActive="active" to='/news'>News</NavLink>
             </li>
           </nav>
           <div className="menu-icon" onClick={toggleMenu}>

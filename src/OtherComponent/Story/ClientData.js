@@ -1,56 +1,68 @@
+import ClientOne from './photoClient/clientOne.png'
+import ClientTwo from './photoClient/clientTwo.png'
+import ClientThree from './photoClient/clientThree.png'
+import ClientFourth from './photoClient/clientOne.png'
+import ClientFifth from './photoClient/clientTwo.png'
+import ClientSix from  './photoClient/clientThree.png'
+import ClientSeven from  './photoClient/clientOne.png'
+import ClientAight from  './photoClient/clientTwo.png'
+import ClientNine from './photoClient/clientThree.png'
+
 const clientData = [
     {
         id:1,
-        img: `/photoClient/clientOne.png`,
+        imag: ClientOne,
         text:'I really happy to see the result my new home. It’s really good house and good price too. And they work so fast becasue they have the best team. Once again, thankyou. I really appreciate it.',
         clientName:'- Mr. James'
     },
     {
         id:2,
-        img: `/photoClient/clientTwo.png`,
+        imag: ClientTwo,
         text:'I really happy to see the result my new home. It’s really good house and good price too. And they work so fast becasue they have the best team. Once again, thankyou. I really appreciate it.',
         clientName:'- Mr. Ahmed'
     },
     {
         id:3,
-        img: `/photoClient/clientThree.png`,
+        imag: ClientThree,
         text:'I really happy to see the result my new home. It’s really good house and good price too. And they work so fast becasue they have the best team. Once again, thankyou. I really appreciate it.',
         clientName:'- Mr. Marco'
     },
     {
         id:4,
-        img: `/photoClient/clientOne.png`,
+        imag: ClientFourth,
         text:'I really happy to see the result my new home. It’s really good house and good price too. And they work so fast becasue they have the best team. Once again, thankyou. I really appreciate it.',
         clientName:'- Mr. James'
     },
     {
         id:5,
-        img: `/photoClient/clientTwo.png`,
+        imag: ClientFifth,
         text:'I really happy to see the result my new home. It’s really good house and good price too. And they work so fast becasue they have the best team. Once again, thankyou. I really appreciate it.',
         clientName:'- Mr. Ahmed'
     },
     {
         id:6,
-        img: `/photoClient/clientThree.png`,
+        imag: ClientSix,
         text:'I really happy to see the result my new home. It’s really good house and good price too. And they work so fast becasue they have the best team. Once again, thankyou. I really appreciate it.',
         clientName:'- Mr. Marco'
     },
     {
         id:7,
-        img: `/photoClient/clientOne.png`,
+        imag: ClientSeven,
         text:'I really happy to see the result my new home. It’s really good house and good price too. And they work so fast becasue they have the best team. Once again, thankyou. I really appreciate it.',
         clientName:'- Mr. James'
     },
     {
         id:8,
-        img: `/photoClient/clientTwo.png`,
+        imag: ClientAight,
         text:'I really happy to see the result my new home. It’s really good house and good price too. And they work so fast becasue they have the best team. Once again, thankyou. I really appreciate it.',
         clientName:'- Mr. Ahmed'
     },
     {
         id:9,
-        img: `/photoClient/clientThree.png`,
+        imag: ClientNine,
         text:'I really happy to see the result my new home. It’s really good house and good price too. And they work so fast becasue they have the best team. Once again, thankyou. I really appreciate it.',
         clientName:'- Mr. Marco'
     }
 ]
+
+export default clientData;
