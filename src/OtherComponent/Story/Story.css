@@ -3,12 +3,14 @@
     margin-bottom: 5vw;
 }
 
-.item{
+.story-content .item,
+.houses-buildings .item
+{
     display:inline;
     align-items: center;
     justify-content: center;
     padding: 1vw;
-    margin-right: 3vw;
+    margin-right: 2.5vw;
 }
 
 .story-content img {
@@ -46,30 +48,28 @@
 
 .text-client-content{
     text-align: start;
+    width: 17vw;
 }
 /* ******** */
 .interview{
-    margin-top: 5vw;
-    display: flex;
-    align-items: center;
+   margin-top: 5vw;
+   display: flex;
+   align-items: center;
    justify-content: center;
    gap:10vw;
    color: white;
-   height: 40vh;
-
-  
-   
+   height: 40vh; 
 }
+
 .tet-inter{
     width: 450px;
     z-index: 1 ;
-
 }
 
 .people-inter img{
     position: relative;
-    width: 13vw;
-    height: 13vw;
+    width: 12vw;
+    height: 12vw;
     border-radius: 50%;
 }
 
@@ -80,3 +80,41 @@
     height: 100%;
     margin-top: 5vw;
   }
+
+
+@media only screen and (max-width: 576px) {
+    .story-content img {
+        width: 20vw;
+        height: 20vw;
+        border-radius: 50%;
+    }
+    .text-client-content{
+        text-align: start;
+        width: 60vw;
+    }
+}
+
+
+@media only screen and (min-width: 1200px) {
+    /* .story-content img {
+        width: 20vw;
+        height: 20vw;
+        border-radius: 50%;
+    }
+    .text-client-content{
+        text-align: start;
+        width: 60vw;
+    } */
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 577px) {
+    .story-content img {
+        width: 11vw;
+        height: 11vw;
+        border-radius: 50%;
+    }
+    .text-client-content{
+        text-align: start;
+        width: 40vw;
+    }
+}
