@@ -14,7 +14,7 @@ const Story = () => {
             clientData.map((client, index) => (
               <div key={client.id} className={`item item-1 ${index === 0 ? 'blue-background' : ''}`}>
                 <img src={client.imag} alt={`Client ${client.id}`} />
-                <p className='text-client-content'>{client.text}</p>
+                <p className='text-client-content'><i>{client.text}</i></p>
                 <p><b>{client.clientName}</b></p>
               </div>
             ))
@@ -36,8 +36,7 @@ const Story = () => {
           </div>
 
           <div className="houses-buildings">
-            {/* <p>Mr. James’s villa</p> */}
-            
+           
             <Carousel>
             {
                 houses.map((houses, index) => (
