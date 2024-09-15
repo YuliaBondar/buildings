@@ -7,7 +7,8 @@ import About from './OtherComponent/About/About.jsx'
 import Services from './OtherComponent/Services/Services.jsx';
 import Gallery from './OtherComponent/Gallery/Gallery.jsx';
 import Contact from './OtherComponent/Contact/YouData.jsx';
-import Story from './OtherComponent/Story/Story.jsx'
+import Story from './OtherComponent/Story/Story.jsx';
+import News from './OtherComponent/News/News.jsx';
 import { useState, useEffect } from 'react';
 
 function App() {
@@ -33,6 +34,7 @@ function App() {
         <Route path="/gallery" element={<Gallery text={text} />} />
         <Route path="/contact" element={<Contact text={text} />} />
         <Route path="/story" element={<Story text={text} />} />
+        <Route path="/news" element={<News text={text} />} />
         </Routes>
       <Footer/>
       

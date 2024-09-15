@@ -35,8 +35,10 @@ const Story = () => {
             </div>
           </div>
 
+
+          <p className='mrJames'>Mr. James’s villa</p>
+
           <div className="houses-buildings">
-           
             <Carousel>
             {
                 houses.map((houses, index) => (

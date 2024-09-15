@@ -59,7 +59,9 @@
    gap:10vw;
    color: white;
    height: 40vh; 
+ 
 }
+
 
 .tet-inter{
     width: 450px;
@@ -80,7 +82,13 @@
     height: 100%;
     margin-top: 5vw;
   }
-
+.mrJames{
+    align-items: center;
+    text-align: center;
+    color:#056088;
+    font-weight: bold;
+    font-size: 1.5vw;
+}
 
 @media only screen and (max-width: 576px) {
     .story-content img {
@@ -90,6 +98,26 @@
     }
     .text-client-content{
         text-align: start;
+        width: 60vw;
+    }
+    .story-content p{
+        font-size: 3vw;
+    }
+    .people-inter img{
+        position: relative;
+        width: 12vw;
+        height: 12vw;
+        border-radius: 50%;
+    }
+    .tet-inter span{
+        font-size: 3vw;
+    }
+    .tet-inter p,
+    .mrJames{
+        font-size: 3vw;
+    }
+    .houses-buildings .item img{
+        height: 25vh;
         width: 60vw;
     }
 }
@@ -109,12 +137,25 @@
 
 @media only screen and (max-width: 1200px) and (min-width: 577px) {
     .story-content img {
-        width: 11vw;
-        height: 11vw;
+        width: 5vw;
+        height: 5vw;
         border-radius: 50%;
     }
     .text-client-content{
-        text-align: start;
+        text-align: start;      
         width: 40vw;
+    }
+    .text-client-content{
+        text-align: start;
+        width: 30vw;
+    }
+    .tet-inter span,
+    .tet-inter p,
+    .mrJames{
+        font-size: 1.5vw;
+    }
+    .houses-buildings .item img{
+        height: 25vh;
+        width: 33vw;
     }
 }
