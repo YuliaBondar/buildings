@@ -1,0 +1,154 @@
+
+.home {
+    margin-top: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45vh;
+    position: relative;
+}
+
+.property_new {
+    width: 85vw;
+    height: 30vh;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url('./photo/buildingFirst.png');
+    background-size: cover;
+    background-position: center;
+    z-index: 2;
+}
+
+.property_new{
+    padding: 2vw;
+    color:white;
+    display:flex ;
+    justify-content: space-between;
+}
+.property_new p {
+    width: 35vw;
+    font-size: 2vw;
+}
+.property_new p,
+.property_new h2
+{  
+    text-align: start;
+    display: flex;
+    align-items: end;
+
+}
+
+.container-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.container-button .button_read {
+    background-color: inherit;
+    border: none;
+    color:#056088;
+    font-size: 1.3vw;
+}
+
+/* ************ */
+
+@media only screen and (max-width:576px){
+    .building_build {
+        padding: 5vw;
+        display: flex; /* Изменено на flex для вертикального расположения */
+        flex-direction: column; /* Вертикальное направление */
+        align-items: center; /* Центрирование по горизонтали */
+        gap: 1vw; 
+        position: relative;
+        z-index: 3; 
+        margin-top:-150px;
+        flex-wrap: wrap;
+    }
+    
+    .tips_work {
+        background-color: white;
+        width: 60vw;
+        position: relative;
+        box-shadow: 1px 1px 10px gray;
+       
+    }
+    
+    .active-content {
+        padding: 1vw;
+        width: 80%;
+    }
+    
+    .tips_work img {
+        width: 60vw;
+        height: 20vh;
+    }
+    .item-name{
+        font-size: 3vw;
+    }
+    .container-button .button_read {
+        background-color: inherit;
+        border: none;
+        color:#056088;
+        font-size: 4vw;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .building_build{
+        padding:5vw;
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        z-index:2;
+        margin-top:-150px;
+        flex-wrap: wrap;
+        gap:3vw;
+    }
+    .tips_work{
+        background-color: white;
+        width: 20vw;
+        position:relative;
+        box-shadow: 1px 1px 10px gray;
+     }
+     .active-content{
+         padding: 1vw;
+         width: 80%;
+     }
+     
+     .tips_work img {
+         width: 20vw;
+     }
+    
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 577px) {
+    .building_build{
+        padding:5vw;
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        z-index:2;
+        margin-top:-150px;
+        flex-wrap: wrap;
+        gap:3vw;
+    }
+    .tips_work{
+        background-color: white;
+        width: 25vw;
+        position:relative;
+        box-shadow: 1px 1px 10px gray;
+     }
+     .active-content{
+         padding: 1vw;
+         width: 80%;
+     }
+     
+     .tips_work img {
+         width: 25vw;
+     }
+   
+   
+}
