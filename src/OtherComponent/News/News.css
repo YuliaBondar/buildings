@@ -55,7 +55,7 @@
 
 /* ************ */
 
-@media only screen and (max-width:576px){
+@media only screen and (max-width:779px){
     .building_build {
         padding: 5vw;
         display: flex; /* Изменено на flex для вертикального расположения */
@@ -105,7 +105,7 @@
         z-index:2;
         margin-top:-150px;
         flex-wrap: wrap;
-        gap:3vw;
+        gap:1vw;
     }
     .tips_work{
         background-color: white;
@@ -124,7 +124,7 @@
     
 }
 
-@media only screen and (max-width: 1200px) and (min-width: 577px) {
+@media only screen and (max-width: 1200px) and (min-width: 780px) {
     .building_build{
         padding:5vw;
         display: flex;
@@ -137,7 +137,7 @@
     }
     .tips_work{
         background-color: white;
-        width: 25vw;
+        width: 18vw;
         position:relative;
         box-shadow: 1px 1px 10px gray;
      }
@@ -147,8 +147,9 @@
      }
      
      .tips_work img {
-         width: 25vw;
+         width: 18vw;
      }
    
    
 }
+
