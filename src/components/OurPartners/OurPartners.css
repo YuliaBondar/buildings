@@ -1,0 +1,9 @@
+.partners-item{
+    margin: 5vw;
+}
+.partners-items{
+    display:flex;
+    list-style-type: none;
+    justify-content: space-between;
+    font-size: 1.3vw;
+}

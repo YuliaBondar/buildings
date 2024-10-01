@@ -1,0 +1,30 @@
+
+.text-offer,
+.input-item {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+}
+@media only screen and (max-width:700px){
+   
+    .input-item input{
+        height: 4.5vw;
+        width: 30vw;
+        font-size: 1.7vw;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .input-item input{
+        height: 3vw;
+        width: 30vw;
+    }
+  
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 600px) {
+    .input-item input{
+        height: 3vw;
+        width: 30vw;
+    }
+}
